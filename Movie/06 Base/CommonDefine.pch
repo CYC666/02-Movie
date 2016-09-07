@@ -1,0 +1,24 @@
+//
+//  CommonDefine.pch
+//  Movie
+//
+//  Created by CYC on 16/4/19.
+//  Copyright © 2016年 CYC. All rights reserved.
+//
+
+#ifndef CommonDefine_pch
+#define CommonDefine_pch
+
+#import "UIViewExt.h"
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define buttonHeight 49             //标签栏高度
+#define NavigationBarHeight 64      //导航栏加状态栏高度
+
+#define kMovieHeaderViewHeight 130 //首页海报视图顶部子视图的高度
+#define kMovieFooterViewHeight 40 //首页海报视图底部子视图的高度
+#define kMovieHeaderViewOffSet 100 //首页海报视图顶部子集合视图的高度
+
+
+#endif /* CommonDefine_pch */
